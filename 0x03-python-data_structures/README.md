@@ -40,3 +40,5 @@
 # 13-is_palindrome.c
 ## Function in C that checks if a singly linked list is a palindrome.
 
+# 100-print_python_list_info.c
+## Function that prints some basic info about Python lists.
