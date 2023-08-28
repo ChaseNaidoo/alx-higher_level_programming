@@ -19,3 +19,14 @@
 # 6-raise_exception_msg.py
 ## Function that raises a name exception with a message.
 
+# 100-safe_print_integer_err.py
+## Function that prints an integer.
+
+# 101-safe_function.py
+## Function that executes a function safely.
+
+# 102-magic_calculation.py
+## Function def magic_calculation(a, b)
+
+# 103-python.c
+## C functions that print some basic info about Python lists, Python bytes an Python float objects.
