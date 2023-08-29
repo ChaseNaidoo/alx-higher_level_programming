@@ -60,3 +60,14 @@
 - if size is equal to 0, print an empty line
 - position should be use by using space - Don’t fill lines by spaces when position[1] > 0
 
+# 100-singly_linked_list.py
+## Class Node that defines a node of a singly linked list
+
+# 101-square.py
+## Class Square that defines a square
+
+# 102-square.py
+## Compare two squares
+
+# 103-magic_class.py
+## Python class MagicClass
