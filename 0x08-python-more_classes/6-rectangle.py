@@ -3,7 +3,7 @@
 
 
 class Rectangle:
-    """Class that defines a rectangle"""
+    """class that defines a rectangle"""
 
     number_of_instances = 0
 
@@ -16,6 +16,7 @@ class Rectangle:
         """
         self.width = width
         self.height = height
+        Rectangle.number_of_instances += 1
 
     @property
     def width(self):
@@ -33,6 +34,7 @@ class Rectangle:
         TypeError: if width is not an integer
         ValueError: if width is less than zero
         """
+
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
         if value < 0:
@@ -73,7 +75,6 @@ class Rectangle:
 
     def __str__(self):
         """method that returns the str of the rectangle"""
-
         rectangle = ""
 
         if self.width == 0 or self.height == 0:
