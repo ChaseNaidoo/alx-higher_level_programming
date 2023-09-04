@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""This module contains an algorithm that resolves the N-Queen puzzle
-using backtracking"""
+"""This module contains an algorithm that resolves the N-Queen puzzle using backtracking"""
 
 
 def isSafe(m_queen, nqueen):
@@ -34,7 +33,7 @@ def isSafe(m_queen, nqueen):
 
         for i in range(nqueen):
             res.append([i, m_queen[i]])
-            print(res)
+        print(res)
 
     def Queen(m_queen, nqueen):
         """Recursive function that executes the Backtracking algorithm
