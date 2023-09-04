@@ -78,7 +78,7 @@ def isSafe(m_queen, nqueen):
 
             try:
                 size = int(sys.argv[1])
-            except TypeError:
+            except ValueError:
                 print("N must be a number")
                 sys.exit(1)
 
