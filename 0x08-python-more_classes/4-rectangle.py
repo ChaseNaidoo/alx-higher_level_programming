@@ -6,7 +6,7 @@ class Rectangle:
     """Class that defines a rectangle"""
 
     def __init__(self, width=0, height=0):
-        """ Method that initializes the instance
+        """method that initializes the instance
 
         Args:
         width: rectangle width
@@ -17,12 +17,12 @@ class Rectangle:
 
     @property
     def width(self):
-        """method that returns the value of the width"""
+        """method that returns the value of the rectangle width"""
         return self.__width
 
     @width.setter
     def width(self, value):
-        """method that defines the width
+        """ method that defines the width
 
         Args:
         value: width
@@ -39,16 +39,12 @@ class Rectangle:
 
     @property
     def height(self):
-        """method that returns the value of the height
-
-        Returns:
-        rectangle height
-        """
+        """method that returns the value of the rectangle height"""
         return self.__height
 
     @height.setter
     def height(self, value):
-        """method that defines the height
+        """ method that defines the height
 
         Args:
         value: height
@@ -64,20 +60,28 @@ class Rectangle:
         self.__height = value
 
     def area(self):
-        """method that calculates the Rectangle area
-
-        Returns:
-        rectangle area
-        """
+        """method that calculates the Rectangle area"""
         return self.width * self.height
 
     def perimeter(self):
-        """method that calculates the Rectangle perimeter
-
-        Returns:
-        rectangle perimeter
-        """
+        """method that calculates the Rectangle perimeter"""
         if self.width == 0 or self.height == 0:
             return 0
-
         return (2 * self.width) + (2 * self.height)
+
+    def __str__(self):
+        """method that returns the str of the rectangle"""
+
+        rectangle = ""
+
+        if self.width == 0 or self.height == 0:
+            return rectangle
+
+        for i in range(self.height):
+            rectangle += ("#" * self.width) + "\n"
+
+        return rectangle[:-1]
+
+    def __repr__(self):
+        """method that returns the string represenation of the object"""
+        return "Rectangle({:d}, {:d})".format(self.width, self.height)
