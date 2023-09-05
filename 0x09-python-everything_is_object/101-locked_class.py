@@ -3,6 +3,7 @@
 dynmaically created attributes
 """
 
+
 class LockedClass:
     """Prevents new instance for attribute"""
     __slots__ = ["first_name"]
