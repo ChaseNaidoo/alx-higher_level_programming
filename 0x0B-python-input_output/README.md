@@ -37,3 +37,8 @@
 # 12-pascal_triangle.py
 ## Function def pascal_triangle(n): that returns a list of lists of integers representing the Pascal’s triangle of n
 
+# 100-append_after.py
+## Function that inserts a line of text to a file, after each line containing a specific string
+
+# 101-stats.py
+## Script that reads stdin line by line and computes metrics
