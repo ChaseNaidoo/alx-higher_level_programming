@@ -103,3 +103,23 @@
   - Results must be sorted in ascending order by the show title and genre name
   - You can use only one SELECT statement
 
+# 100-not_my_genres.sql
+- Script that uses the hbtn_0d_tvshows database to list all genres not linked to the show Dexter
+  - The tv_shows table contains only one record where title = Dexter (but the id can be different)
+  - Each record should display: tv_genres.name
+
+# 101-not_a_comedy.sql
+- Script that lists all shows without the genre Comedy in the database hbtn_0d_tvshows.
+  - The tv_genres table contains only one record where name = Comedy (but the id can be different)
+  - Each record should display: tv_shows.title
+  - Results must be sorted in ascending order by the show title
+
+# 102-rating_shows.sql
+- Script that lists all shows from hbtn_0d_tvshows_rate by their rating.
+  - Each record should display: tv_shows.title - rating sum
+  - Results must be sorted in descending order by the rating
+
+# 103-rating_genres.sql
+- Script that lists all genres in the database hbtn_0d_tvshows_rate by their rating.
+  - Each record should display: tv_genres.name - rating sum
+  - Results must be sorted in descending order by their rating
