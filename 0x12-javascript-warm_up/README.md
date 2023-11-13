@@ -65,3 +65,19 @@
     - The function must be visible from outside
     - The name of the function must be add
 
+# 100-let_me_const.js
+  - File that modifies the value of myVar to 333
+
+# 101-call_me_moby.js
+  - Function that increments and calls a function.
+    - The function must be visible from outside
+    - Prototype: function (x, theFunction)
+
+# 102-add_me_maybe.js
+  - Function that increments and calls a function.
+    - The function must be visible from outside
+    - Prototype: function (number, theFunction)
+
+# 103-object_fct.js
+  - Update this script by adding a new function incr that increments the integer value.
+
