@@ -2,7 +2,7 @@
 """Contains the class definition of a City"""
 from relationship_state import Base
 from sqlalchemy import Column, Integer, String, ForeignKey
-fro sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.ext.declarative import declarative_base
 
 
 class City(Base):
